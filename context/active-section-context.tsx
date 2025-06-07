@@ -19,7 +19,7 @@ export const ActiveSectionContext =
 
 export default function ActiveSectionContextProvider({
   children,
-}): ActiveSectionContextProviderProps {
+}: ActiveSectionContextProviderProps) {
   const [activeSection, setActiveSection] = useState<SectionName>("Home");
   const [timeOfLastClick, setTimeOfLastClick] = useState(0); // We need to keep track of the last click to disable the observer temporarily when user clicks on a link
 
@@ -42,8 +42,9 @@ export function useActiveSectionContext() {
 
   if (context === null) {
     throw new Error(
-      "useActiveContext must be used within an ActiveSectionContextProvider"
+      "useActiveSectionContext must be used within an ActiveSectionContextProvider"
     );
+    
   }
 
   return context;
