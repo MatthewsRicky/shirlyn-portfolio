@@ -28,7 +28,7 @@ export default function Intro() {
             transition={{ type: "tween", duration: 0.2 }}
           >
             <Image
-              src="/me.JPG"
+              src="/about2.jpeg"
               alt="Ricky Matthews Githinji"
               height={192}
               width={192}
@@ -58,13 +58,12 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
         className="mb-10 mt-4 px-4 text-2xl font medium !leading-[1.5] sm:text-4xl"
       >
-        <span className="font-bold">Hi, I&apos;m Ricky,</span> a{" "}
+        <span className="font-bold">Hi, I&apos;m Shirlyn,</span> a{" "}
         <span className="font-bold">
-          Front-end Developer & Graphic Designer
+          Social Media Strategist & Brand Growth Specialist 
         </span>{" "}
         based in Kenya. I enjoy building{" "}
-        <span className="italic">sites, apps & components</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>
+        <span className="italic">Brands and Social Media Strategies</span>.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
