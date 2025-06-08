@@ -13,7 +13,7 @@ export default function Navbar() {
     "Contact",
   ];
   return (
-    <div className="flex my-6">
+    <div className="flex my-6 mx-auto items-center justify-center">
       <ul
         className="flex items-center justify-around
        text-sm gap-6 font-normal bg-slate-100 w-fit shadow-lg shadow-slate-300/30 rounded-3xl px-3 py-1"
