@@ -17,7 +17,7 @@ export default function Intro() {
   return (
     <section
       ref={ref}
-      className="mb-28 max-w-[50rem] sm:mb-0 text-center scroll-mt-[100rem]"
+      className="mb-28 max-w-200 sm:mb-0 text-center scroll-mt-400"
       id="home"
     >
       <div className="flex items-center justify-center">
@@ -56,7 +56,7 @@ export default function Intro() {
       <motion.p
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        className="mb-10 mt-4 px-4 text-2xl font medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-4 text-2xl font medium leading-normal! sm:text-4xl"
       >
         <span className="font-bold">Hi, I&apos;m Shirlyn,</span> a{" "}
         <span className="font-bold">
