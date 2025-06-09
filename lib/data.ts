@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "../public/corpcomment.png";
-import rmtdevImg from "../public/rmtdev.png";
+//import corpcommentImg from "../public/corpcomment.png";
+import rmtdevImg from "../public/social-media-mgt.png";
 // import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -62,30 +62,40 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "LEAD SOCIAL MEDIA STRATEGIST & MANAGER - IRANIC DIGITAL",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I lead a team in curating content that not only captivates audiences but also drives measurabl results—whether it’s increased  brand awareness, community engagement, or sales conversions. From crafting viral content that reaches millions to analyzing performance data and adapting strategies, I ensure that we stay ahead of trends and maximize their social media potential.",
+    tags: ["Optimization", "Analytics", "Content Creation"],
+    imageUrl: rmtdevImg,
   },
   {
-    title: "rmtDev",
+    title: "LEAD SOCIAL MEDIA STRATEGIST & MANAGER - NIGHTCLUB@NOON",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "I led the digital marketing strategy that helped sellout this daytime, sober dance party in Chicago andbuild a vibrant, engaged community. Through a mix of organic content, ads, trend-drivenmarketing, and community engagement, I crafted astrategy that sparked excitement and drove ticketsales. By leveraging Instagram, TikTok, and strategiccollaborations, we positioned Nightclub at Noon as afresh, high-energy alternative to traditional nightlife.",
+    tags: ["Marketing", "Engagement", "Ads", "Night Club At Noon"],
+    imageUrl: rmtdevImg,
+  },
+  {
+    title: "SOCIAL MEDIA MANAGER - T-FLOAT",
+    description:
+      "I led the digital marketing strategy that helped sellout this daytime, sober dance party in Chicago and build a vibrant, engaged community.Through a mix of organic content, ads, trend-driven markeing, and community engagement, I crafted a strategy that sparked excitement and drove ticketsales. By leveraging Instagram, TikTok, and strategic collaborations, we positioned Nightclub at Noon as afresh, high-energy alternative to traditional nightlife.",
+    tags: ["Strategy", "Development", "Social Media Management"],
+    imageUrl: rmtdevImg,
+  },
+  {
+    title: "SOCIAL MEDIA MANAGER - TELEBU COMMUNICATIONS",
+    description:
+    "As the social media manger for Telebu, a B2B commiunication solutions company, I led the LinkedIn first content strategy, positioning the brand and its c-suite executives as thought leaders inthe industry. Grew the page to over 21K followers",
+    tags: ["Marketing", "Engagement", "Followers", "Telebu"],
     imageUrl: rmtdevImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Framer Motion",
+  "Social Media Strategy & Growth",
+  "Paid & Organic Growth",
+  "Content Creation &Optimization",
+  "Analytics & Otptimization",
+  "Graphics Design & Storytelling",
+  "Trend Spotting & Adaptation",
 ] as const;
