@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import SectionHeading from "./SectionDivider";
+import SectionHeading from "./SectionHeading";
 import { motion } from "framer-motion";
 
 import SectionDivider from "./SectionDivider";
@@ -21,7 +21,7 @@ export default function About() {
       className="mb-28 max-w-[45rem] scroll-mt-28 text-center leading-8 sm:mb-40"
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+     <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
         I&apos;m a passionate social media strategist with a deep understanding
         of human behavior, storytelling, and brand growth. With experience
