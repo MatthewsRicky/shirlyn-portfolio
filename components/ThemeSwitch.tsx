@@ -8,7 +8,7 @@ export default function ThemeSwitch() {
   const { theme, toggleTheme } = useTheme();
   return (
     <button
-      className="fixed bottom-10 right-10 text-slate-950 bg-white w-12 h-12 bg-opacity-80 backdrop-blur-[0.5rem] border border-white border-opacity-40 shadow-2xl rounded-full flex justify-center items-center hover:scale-[1.15] active:scale-105 transition-all dark:bg-slate-950 dark:text-white"
+      className={`fixed bottom-10 right-10 w-12 h-12 bg-opacity-80 backdrop-blur-[0.5rem] border border-white border-opacity-40 shadow-2xl rounded-full flex justify-center items-center hover:scale-[1.15] active:scale-105 transition-all ${theme=== "dark" ?"dark:bg-gray-950 dark:text-white dark:border-gray-950" : ""}`}
       onClick={toggleTheme}
     >
       {theme === "light" ? <BsSun /> : <BsMoon />}
