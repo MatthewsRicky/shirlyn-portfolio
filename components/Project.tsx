@@ -19,7 +19,7 @@ export default function Project({
     offset: ["0 1", "1.33 1"],
   });
   const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
-  const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+  //const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
 
   return (
     <motion.div
@@ -30,12 +30,10 @@ export default function Project({
       ref={ref}
       className="mb-3 sm:mb-8 last:mb-0 group"
     >
-      <section className="bg-slate-100 hover:bg-slate-200 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 sm:h-[20rem] rounded-lg relative sm:group-even:pl-8 transition mb-28 dark:bg-slate-50/20 dark:hover:bg-slate-50/30 dark:text-slate-50">
-        <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
+      <section className="bg-slate-100 hover:bg-slate-200 max-w-[64rem] md:max-w-[48rem] border border-black/5 overflow-hidden sm:pr-8 sm:h-[20rem] rounded-lg relative sm:group-even:pl-8 transition mb-28 dark:bg-slate-50/20 dark:hover:bg-slate-50/30 !h-full">
+        <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col sm:group-even:ml-[18rem]">
           <h3 className="text-2xl font-semibold">{title}</h3>
-          <p className="mt-2 leading-relaxed text-slate-700 dark:text-slate-50/70">
-            {description}
-          </p>
+          <p className="mt-2 text-sm leading-relaxed"> {description}</p>
           <ul className="flex flex-wrap mt-4 gap-2">
             {tags.map((tag, index) => (
               <li
