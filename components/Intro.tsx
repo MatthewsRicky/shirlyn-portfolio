@@ -60,7 +60,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hi, I&apos;m Shirlyn,</span> a{" "}
         <span className="font-bold">
-          Social Media Strategist & Brand Growth Specialist 
+          Social Media Strategist & Brand Growth Specialist
         </span>{" "}
         based in Kenya. I enjoy building{" "}
         <span className="italic">Brands and Social Media Strategies</span>.
@@ -85,7 +85,7 @@ export default function Intro() {
         <a
           href="/CV.pdf"
           download={true}
-          className="group bg-white flex px-7 items-center py-3 gap-3 rounded-full focus:scale-110 outline-none hover:scale-110 active:scale-105 transition border border-black/10 dark:bg-slate-50/10 dark:text-slate-50/60"
+          className="group flex px-7 items-center py-3 gap-3 rounded-full focus:scale-110 outline-none hover:scale-110 active:scale-105 transition border border-black/10 text-slate-900 dark:bg-slate-50/10 dark:text-slate-50/60"
         >
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition " />
