@@ -4,7 +4,7 @@ import React from "react";
 
 import { Resend } from "resend";
 
-import { validateString, getErrorMeessage } from "@/lib/utils";
+import { validateString, getErrorMessage } from "@/lib/utils";
 
 import ContactFormEmail from "@/email/contact-form-emails";
 
@@ -41,7 +41,7 @@ export const sendEmail = async (formData: FormData) => {
     });
   } catch (error: unknown) {
     return {
-      error: getErrorMeessage(error),
+      error: getErrorMessage(error),
     };
   }
   return {
