@@ -18,4 +18,6 @@ export const getErrorMeessage = (error: unknown) => {
   } else {
     message = "Something went wrong";
   }
+
+  return message;
 };
