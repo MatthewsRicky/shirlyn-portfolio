@@ -2,17 +2,17 @@
 
 @theme {
   --color-background: #ededed;
-  --color-foreground: #0a0a0a;
+  --color-foreground: ##0a090e;
   --font-sans: geist-sans;
   --font-mono: geist-mono;
 }
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: ##0a090e;
 }
 .dark {
-  --background: #0a0a0a;
+  --background: #0a090e;
   --foreground: #ededed;
 }
 
