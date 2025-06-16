@@ -85,7 +85,7 @@ export default function Intro() {
         <a
           href="/CV.pdf"
           download={true}
-          className="group flex px-7 items-center py-3 gap-3 rounded-full focus:scale-110 outline-none hover:scale-110 active:scale-105 transition border border-black/10 text-slate-900 dark:bg-slate-50/10 dark:text-slate-50/60"
+          className="group flex px-7 items-center py-3 gap-3 rounded-full focus:scale-110 outline-none hover:scale-110 active:scale-105 transition border border-black/10 text-slate-900 dark:bg-slate-50/10 dark:text-slate-100/60"
         >
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition " />
